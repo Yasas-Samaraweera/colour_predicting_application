@@ -82,3 +82,4 @@ def colour_predictor(
 
     except Exception as e:
         return {"colour_change": False, "options": [], "error": f"Unexpected error: {str(e)}"}
+
