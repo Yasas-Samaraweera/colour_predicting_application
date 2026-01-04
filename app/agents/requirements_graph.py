@@ -11,10 +11,10 @@ from app.agents.tools.colour_model import predict_from_requirements
 
 
 class RequirementsGraphState(MessagesState):
-    requirements_complete: bool
-    interruption_message: str
-    requirements: Optional[dict]
-    prediction_result: Optional[dict]
+    requirements_complete: bool = False
+    interruption_message: str = ""
+    requirements: Optional[dict] = None
+    prediction_result: Optional[dict] = None
 
 
 def requirements_agent_node(state: RequirementsGraphState) -> RequirementsGraphState:
