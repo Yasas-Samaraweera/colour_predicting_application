@@ -1,5 +1,15 @@
 # Complete Application Flow - Colour Predictor
 
+## Screenshot
+
+Here is the main UI screenshot (stored in repository):
+
+![App screenshot](images/app_screenshot.png)
+
+Or the same image with controlled width:
+
+<img src="images/app_screenshot.png" width="600" />
+
 This document explains the full end-to-end process of the Colour Predictor application, from when a user sends a message to when they receive a color prediction result.
 
 ---
@@ -463,4 +473,5 @@ The workflow continues in a loop until all requirements are gathered, then makes
 
 Maintainer: Yasas Samaraweera  
 AI / ML Engineer – Textile & Manufacturing Applications
+
 
